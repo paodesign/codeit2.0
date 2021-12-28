@@ -1,0 +1,630 @@
+/* 
+Paleta: 
+Celestes:
+#2B809C celeste
+#1D6580 celeste mas oscuro
+#025680 celeste mas oscuro que el anterior
+
+Azules:
+#094563 azul copado
+#013344 azul mas oscuro
+#011F28 azul mas oscuro que el anterior
+
+Naranja:
+#80361D naranja de it
+
+
+color secundario :  #80361d,
+ */
+
+ @font-face {
+    font-family: "Museo Slab";
+    src: local("Museo Slab 100"), local("Museo-Slab-100"),
+      url("../fonts/MuseoSlab-100.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-100.woff") format("woff"),
+      url("../fonts/MuseoSlab-100.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab Italic 100";
+    src: local("Museo Slab Italic 100"), local("Museo-Slab-Italic-100"),
+      url("../fonts/MuseoSlab-100Italic.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-100Italic.woff") format("woff"),
+      url("../fonts/MuseoSlab-100Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab 300";
+    src: local("Museo Slab 300"), local("Museo-Slab-300"),
+      url("../fonts/MuseoSlab-300.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-300.woff") format("woff"),
+      url("../fonts/MuseoSlab-300.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab Italic 300";
+    src: local("Museo Slab Italic 300"), local("Museo-Slab-Italic-300"),
+      url("../fonts/MuseoSlab-300Italic.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-300Italic.woff") format("woff"),
+      url("../fonts/MuseoSlab-300Italic.ttf") format("truetype");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab 500";
+    src: local("Museo Slab 500"), local("Museo-Slab-500"),
+      url("../fonts/MuseoSlab-500.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-500.woff") format("woff"),
+      url("../fonts/MuseoSlab-500.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab Italic 500";
+    src: local("Museo Slab Italic 500"), local("Museo-Slab-Italic-500"),
+      url("../fonts/MuseoSlab-500Italic.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-500Italic.woff") format("woff"),
+      url("../fonts/MuseoSlab-500Italic.ttf") format("truetype");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab 700";
+    src: local("Museo Slab 700"), local("Museo-Slab-700"),
+      url("../fonts/MuseoSlab-700.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-700.woff") format("woff"),
+      url("../fonts/MuseoSlab-700.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab Italic 700";
+    src: local("Museo Slab Italic 700"), local("Museo-Slab-Italic-700"),
+      url("../fonts/MuseoSlab-700Italic.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-700Italic.woff") format("woff"),
+      url("../fonts/MuseoSlab-700Italic.ttf") format("truetype");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab 900";
+    src: local("Museo Slab 900"), local("Museo-Slab-900"),
+      url("../fonts/MuseoSlab-900.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-900.woff") format("woff"),
+      url("../fonts/MuseoSlab-900.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab Italic 900";
+    src: local("Museo Slab Italic 900"), local("Museo-Slab-Italic-900"),
+      url("../fonts/MuseoSlab-900Italic.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-900Italic.woff") format("woff"),
+      url("../fonts/MuseoSlab-900Italic.ttf") format("truetype");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab 1000";
+    src: local("Museo Slab 1000"), local("Museo-Slab-1000"),
+      url("../fonts/MuseoSlab-1000.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-1000.woff") format("woff"),
+      url("../fonts/MuseoSlab-1000.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Museo Slab Italic 1000";
+    src: local("Museo Slab Italic 1000"), local("Museo-Slab-Italic-1000"),
+      url("../fonts/MuseoSlab-1000Italic.woff2") format("woff2"),
+      url("../fonts/MuseoSlab-1000Italic.woff") format("woff"),
+      url("../fonts/MuseoSlab-1000Italic.ttf") format("truetype");
+    font-weight: normal;
+  }
+  
+  body {
+    font-family: "Museo Slab 500";
+  }
+  
+ 
+  
+  #fondo1 {
+    background-image: url("../images/fondo_1.jpg");
+    min-height: 1150px;
+    background-size: cover;
+    background-repeat: round;
+    /* margin-top: -100px; */
+  }
+  
+  #fondo2 {
+    background-image: url("../images/fondo_2.jpg");
+    min-height: 850px;
+    background-size: cover;
+    background-repeat: round;
+    /* margin-top: -165px; */
+  }
+  
+  #fondo3 {
+    background-image: url("../images/fondo_3.jpg");
+    min-height: 850px;
+    background-size: cover;
+    background-repeat: round;
+    /* margin-top: -136px; */
+  }
+  
+  #fondo4 {
+    background-image: url("../images/fondo_4.jpg");
+    min-height: 850px;
+    background-size: cover;
+    background-repeat: round;
+    /* margin-top: -222px; */
+  }
+  
+  #fondo5 {
+    background-image: url("../images/fondo_5.jpg");
+    min-height: 850px;
+    background-size: cover;
+    background-repeat: round;
+    /* margin-top: -165px; */
+  }
+  
+  #fondo6 {
+    background-image: url("../images/fondo_6.jpg");
+    min-height: 850px;
+    background-size: cover;
+    background-repeat: round;
+    position: absolute;
+    
+  }
+  
+  #fondo-mar-izq {
+    width: 700px;
+    height: 700px;
+    position: relative;
+    bottom:-848px;
+    left:-375px;
+  }
+  
+  #fondo-mar-dcha {
+    width:768px;
+    height:805px;
+    position: relative;
+    bottom:-27px;
+    right:-1453px;
+    
+  }
+  
+  .fondo7 {
+    background-image: url("../images/fondo_7.jpg");
+    background-size: cover;
+    background-repeat: round;
+    /* margin-top: -110px; */
+    min-height: 850px;
+    padding-top: 5%;
+  }
+  
+  div nav a figure img #logo {
+    width: 80%;
+  }
+  
+  #pulpo {
+    width: 75%;
+  }
+  
+  h1,
+  h4 {
+    font-family: "Museo Slab 700";
+    color: #80361d;
+    margin: 0px;
+  }
+  
+  h1 {
+    font-size: 52px;
+  }
+  
+  h2 {
+    font-size: 55px;
+  }
+  
+  h3 {
+    font-size: 28px;
+  }
+  
+  h4 {
+    font-size: 22px;
+  }
+  
+  h5 {
+    font-size: 18px;
+  }
+  
+  h6 {
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 16px;
+    font-family: "Museo Slab 500";
+    color: #fff;
+    margin: 0px;
+  }
+  
+  /* .bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  } */
+  
+  /* .up-section {
+      position: absolute;
+  } */
+  
+  i,
+  span,
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  /*===== All Button Style =====*/
+  .main-btn {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 0;
+    padding: 0 40px;
+    font-size: 16px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+    transition: all 0.4s ease-out 0s;
+    border-radius: 10px;
+    background-color: #80361d;
+  }
+  
+  .main-btn:hover {
+    background-color: #bd5330;
+    color: #fff;
+  }
+  
+  /*===== All Section Title Style =====*/
+  .section_title .title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .section-1 {
+    display: table;
+    position: relative;
+    top: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 510px;
+    min-height: 100px;
+  }
+  
+  div .muelle {
+    position: relative;
+    top: -107px;
+    right: -190px;
+  }
+  
+  #muelle-img {
+    width: 163%;
+  }
+  
+  div .tentaculo {
+    position: relative;
+    bottom: -142px;
+    right: 215px;
+  }
+  
+  div .btn-texto {
+    position: relative;
+    top: -135px;
+    right: -226px;
+    display: block;
+  }
+  
+  #btn-texto {
+    background-color: #80361d;
+    color: #fff;
+  }
+  
+  .texto-div {
+    display: inline-block;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  .title-secundary {
+    font-family: "Museo Slab 700";
+    position: relative;
+    top: -225px;
+    color: #fff;
+  }
+  
+  .row-texto-div {
+    position: relative;
+    top: 60px;
+  }
+  
+  #tittle-three {
+    color: #80361d;
+    position: relative;
+    left: -300px;
+    top: 60px;
+    font-family: "Museo Slab 700";
+  }
+  
+  .row-texto-img {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    right: -90px;
+  }
+  
+  .imagen-icono {
+    position: relative;
+    top: -53px;
+    left: 251px;
+  }
+  
+  .imagen-icono img {
+    width: 83px;
+  }
+  
+  .row-texto-img-dos {
+    position: relative;
+    top: -156px;
+    right: -540px;
+  }
+  
+  .imagen-icono-dos {
+    position: relative;
+    left: -106px;
+    top: -74px;
+  }
+  
+  .imagen-icono-dos img {
+    width: 83px;
+  }
+  
+  .sombra_fija {
+    -webkit-transform: translateX(0);
+  }
+  
+  .sombra_fija::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    left: 5%;
+    top: 100%;
+  
+    background: -webkit-radial-gradient(
+      center,
+      ellipse,
+      rgba(0, 0, 0, 0.35) 0%,
+      rgba(0, 0, 0, 0) 80%
+    );
+    -webkit-transition-duration: 0.3s;
+    opacity: 0;
+  }
+  
+  .sombra_fija:hover {
+    -webkit-transform: translateY(-5px);
+  }
+  
+  .sombra_fija:hover::before {
+    -webkit-transform: translateY(5px);
+    opacity: 1;
+  }
+  
+  .borde-radius{
+    width: 1280px;
+    height: 397px;
+    border-width: 0px 5px 5px 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-color: #80361d;
+    border-radius: 2% 5% 5%;
+    position: relative;
+    top:30px;
+  }
+  
+  .borde-radius p {
+    margin: -11px;
+  }
+  
+  /* div #image-saludo {
+    position: relative;
+    width: 83px;
+  }
+  
+  div #image-saludo::before {
+    content: url('/assets/images/saludo.png');
+    display:block;
+    width: 75px;
+    height:75px;
+    position:absolute;
+    left: 10px;
+    top: 10px;
+  } */
+  
+  /*===========================
+      10.CONTACT css 
+  ===========================*/
+  .contact_area {
+    position: relative;
+    z-index: 5;
+  }
+  
+  .contact_area::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+    z-index: -1;
+  }
+  
+  p.form-message.success,
+  p.form-message.error {
+    font-size: 16px;
+    color: #ffffff;
+    background: #f9f9f9;
+    padding: 10px 15px;
+    margin-top: 30px;
+    background-color: #fff;
+    margin-left: 15px;
+  }
+  
+  p.form-message.success.form-message.error,
+  p.form-message.error.form-message.error {
+    color: #f00;
+  }
+  
+  .single_form {
+    margin-top: 30px;
+  }
+  
+  .single_form input,
+  .single_form textarea {
+    width: 100%;
+    height: 55px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 0 25px;
+    font-size: 16px;
+    color: #fff;
+    background: none;
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  .single_form input:focus,
+  .single_form textarea:focus {
+    border-color: #fff;
+  }
+  
+  .single_form textarea {
+    height: 170px;
+    resize: none;
+    padding-top: 15px;
+  }
+  
+  /*===========================
+      11.FOOTER css 
+  ===========================*/
+  .footer_area {
+    background-color: #6d401b;
+  }
+  
+  .footer_menu ul li {
+    display: inline-block;
+    padding-top: 5px;
+  }
+  
+  .footer_menu ul li + li {
+    margin-left: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer_menu ul li + li {
+      margin-left: 15px;
+    }
+  }
+  
+  .footer_menu ul li a {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  .footer_menu ul li a:hover {
+    color: #fff;
+  }
+  
+  .credit {
+    font-size: 16px;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  
+  .credit a {
+    color: #fff;
+  }
+  
+  .footer_social ul li {
+    display: inline-block;
+    padding-top: 15px;
+  }
+  
+  .footer_social ul li + li {
+    margin-left: 30px;
+  }
+  
+  .footer_social ul li a {
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  .footer_social ul li a:hover {
+    color: #fff;
+  }
+  
+  @media (max-width: 767px) {
+    .footer_social ul li a {
+      font-size: 20px;
+    }
+  }
+  
+  /*===== BACK TO TOP =====*/
+  .back-to-top {
+    font-size: 20px;
+    color: #fff;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #80361d;
+    text-align: center;
+    z-index: 99;
+    transition: all 0.3s ease-out 0s;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+  
+  .back-to-top:hover {
+    color: #fff;
+    background-color: #80361d;
+  }
+  
+  .back-to-top i {
+    padding-top: 8px;
+  }
+  
