@@ -134,6 +134,8 @@ color secundario :  #80361d,
   
   body {
     font-family: "Museo Slab 500";
+    padding: 0px;
+    margin: 0px;
   }
   
  
@@ -255,7 +257,7 @@ color secundario :  #80361d,
   p {
     font-size: 16px;
     font-family: "Museo Slab 500";
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin: 0px;
   }
   
@@ -351,7 +353,7 @@ color secundario :  #80361d,
   
   .texto-div {
     display: inline-block;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 15px;
   }
   
@@ -359,7 +361,7 @@ color secundario :  #80361d,
     font-family: "Museo Slab 700";
     position: relative;
     top: -225px;
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
   
   .row-texto-div {
@@ -370,7 +372,7 @@ color secundario :  #80361d,
   #tittle-three {
     color: #80361d;
     position: relative;
-    left: -300px;
+    left: 50%;
     top: 60px;
     font-family: "Museo Slab 700";
   }
@@ -378,18 +380,18 @@ color secundario :  #80361d,
   .row-texto-img {
     display: inline-block;
     position: relative;
-    top: 100px;
-    right: -90px;
+    top: 135px;
+    right: -10px
   }
   
   .imagen-icono {
     position: relative;
     top: -53px;
-    left: 251px;
+    left: 222px;
   }
   
   .imagen-icono img {
-    width: 83px;
+    width: 73px;
   }
   
   .row-texto-img-dos {
@@ -628,10 +630,18 @@ color secundario :  #80361d,
   .back-to-top i {
     padding-top: 8px;
   }
+
+  /*===========================
+      codeit 2.0
+  ===========================*/
   
 #first-section{
     padding: 0px;
     margin: 0px;
 
+}
+.p-second{
+  position: relative;
+  top:-81px;
 }
   
