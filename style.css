@@ -333,14 +333,14 @@ color secundario :  #80361d,
   
   div .tentaculo {
     position: relative;
-    bottom: -142px;
-    right: 215px;
+    bottom: -40px;
+    right: -40px;
   }
   
   div .btn-texto {
     position: relative;
     top: -135px;
-    right: -226px;
+    right: -340px;
     display: block;
   }
   
@@ -599,7 +599,7 @@ color secundario :  #80361d,
       font-size: 20px;
     }
   }
-  
+
   
   /*===== BACK TO TOP =====*/
   .back-to-top {
@@ -628,4 +628,10 @@ color secundario :  #80361d,
   .back-to-top i {
     padding-top: 8px;
   }
+  
+#first-section{
+    padding: 0px;
+    margin: 0px;
+
+}
   
