@@ -1,17 +1,23 @@
 .navbar {
-  background-color: transparent;
-  height: 85px;
+background-color: transparent;
+height: 85px;
 }
 
-.logo-img {
+
+
+
+
+.logo-img{
   height: auto;
-  width: 150px;
+width: 150px;
 }
 
 .main-nav li {
   text-align: center;
   margin: 15px auto;
 }
+
+
 
 .navbar-toggle {
   position: absolute;
@@ -26,68 +32,63 @@
   display: block;
 }
 
+
 @media screen and (max-width: 990px) {
   .navbar {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     padding-bottom: 0;
     height: 85px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
-  .navbar-collapse {
+  .navbar-collapse{
     background-color: white;
     padding: 15px;
     border-radius: 10px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .nav-item-mobile {
     border-bottom: solid 1px;
-  }
-  .nav-link-mobile {
-    margin-right: 5%;
-  }
-  .container-nav {
+   }
+   .nav-link-mobile{
+     margin-right: 5%;
+   }
+
+  .container-nav{
     position: relative;
     padding: 14px;
     border-radius: 15px;
     background-color: brown;
     height: 85px;
   }
+
   .main-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-right: 30px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
   }
+
   .main-nav li {
     margin: 0;
   }
+
   .nav-links {
     margin-left: 40px;
   }
+
   .logo {
     margin-top: 0;
   }
+
   .navbar-toggle {
     display: none;
   }
+
   .logo:hover,
   .nav-links:hover {
-    color: white;
+    color: rgba(255, 255, 255, 1);
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+
