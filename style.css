@@ -77,13 +77,23 @@
   font-weight: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Museo Slab 500";
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar {
   background-color: transparent;
-  height: 85px;
+  height: 100px;
 }
 
 .menu-nav-full {
@@ -146,22 +156,27 @@ li a {
 }
 
 #home {
-  background: #0015ff;
-  background: -webkit-gradient(linear, left bottom, left top, from(#0015ff), to(white));
-  background: linear-gradient(0deg, #0015ff 0%, white 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0015ff",endColorstr="#ffffff",GradientType=1);
+  background: url("./images/fondo_1.jpg");
+  /* The image used */
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
   margin: 0;
-  padding: 100px 0px 0px 0px;
+  padding: 150px 0px 150px 0px;
 }
 
 #home .home-octopus {
-  max-width: 50%;
+  max-width: 40%;
   height: auto;
 }
 
 #home figure {
   position: relative;
-  top: 50px;
+  top: 170px;
   z-index: 100;
 }
 
