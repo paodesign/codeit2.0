@@ -4,79 +4,67 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Museo Slab Italic 100";
   src: local("Museo Slab Italic 100"), local("Museo-Slab-Italic-100"), url("../fonts/MuseoSlab-100Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-100Italic.woff") format("woff"), url("../fonts/MuseoSlab-100Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Museo Slab 300";
   src: local("Museo Slab 300"), local("Museo-Slab-300"), url("../fonts/MuseoSlab-300.woff2") format("woff2"), url("../fonts/MuseoSlab-300.woff") format("woff"), url("../fonts/MuseoSlab-300.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Museo Slab Italic 300";
   src: local("Museo Slab Italic 300"), local("Museo-Slab-Italic-300"), url("../fonts/MuseoSlab-300Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-300Italic.woff") format("woff"), url("../fonts/MuseoSlab-300Italic.ttf") format("truetype");
   font-weight: normal;
 }
-
 @font-face {
   font-family: "Museo Slab 500";
   src: local("Museo Slab 500"), local("Museo-Slab-500"), url("../fonts/MuseoSlab-500.woff2") format("woff2"), url("../fonts/MuseoSlab-500.woff") format("woff"), url("../fonts/MuseoSlab-500.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Museo Slab Italic 500";
   src: local("Museo Slab Italic 500"), local("Museo-Slab-Italic-500"), url("../fonts/MuseoSlab-500Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-500Italic.woff") format("woff"), url("../fonts/MuseoSlab-500Italic.ttf") format("truetype");
   font-weight: normal;
 }
-
 @font-face {
   font-family: "Museo Slab 700";
   src: local("Museo Slab 700"), local("Museo-Slab-700"), url("../fonts/MuseoSlab-700.woff2") format("woff2"), url("../fonts/MuseoSlab-700.woff") format("woff"), url("../fonts/MuseoSlab-700.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Museo Slab Italic 700";
   src: local("Museo Slab Italic 700"), local("Museo-Slab-Italic-700"), url("../fonts/MuseoSlab-700Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-700Italic.woff") format("woff"), url("../fonts/MuseoSlab-700Italic.ttf") format("truetype");
   font-weight: normal;
 }
-
 @font-face {
   font-family: "Museo Slab 900";
   src: local("Museo Slab 900"), local("Museo-Slab-900"), url("../fonts/MuseoSlab-900.woff2") format("woff2"), url("../fonts/MuseoSlab-900.woff") format("woff"), url("../fonts/MuseoSlab-900.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Museo Slab Italic 900";
   src: local("Museo Slab Italic 900"), local("Museo-Slab-Italic-900"), url("../fonts/MuseoSlab-900Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-900Italic.woff") format("woff"), url("../fonts/MuseoSlab-900Italic.ttf") format("truetype");
   font-weight: normal;
 }
-
 @font-face {
   font-family: "Museo Slab 1000";
   src: local("Museo Slab 1000"), local("Museo-Slab-1000"), url("../fonts/MuseoSlab-1000.woff2") format("woff2"), url("../fonts/MuseoSlab-1000.woff") format("woff"), url("../fonts/MuseoSlab-1000.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Museo Slab Italic 1000";
   src: local("Museo Slab Italic 1000"), local("Museo-Slab-Italic-1000"), url("../fonts/MuseoSlab-1000Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-1000Italic.woff") format("woff"), url("../fonts/MuseoSlab-1000Italic.ttf") format("truetype");
   font-weight: normal;
 }
-
 body {
   font-family: "Museo Slab 500";
 }
@@ -147,18 +135,15 @@ li a {
 
 #home {
   background: #0015ff;
-  background: -webkit-gradient(linear, left bottom, left top, from(#0015ff), to(white));
   background: linear-gradient(0deg, #0015ff 0%, white 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0015ff",endColorstr="#ffffff",GradientType=1);
   margin: 0;
   padding: 100px 0px 0px 0px;
 }
-
 #home .home-octopus {
   max-width: 50%;
   height: auto;
 }
-
 #home figure {
   position: relative;
   top: 50px;
@@ -169,41 +154,41 @@ li a {
   .menu-nav-full {
     display: none;
   }
+
   .navbar-toggler {
     display: block;
   }
+
   .navbar {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     padding-bottom: 0;
     height: 85px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
+
   .navbar-collapse {
     background-color: white;
     padding: 15px;
     border-radius: 10px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
+
   .nav-item-mobile {
     border-bottom: solid 1px;
   }
+
   .nav-link-mobile {
     margin-right: 5%;
     font-size: 42px;
     color: #aa6e47 !important;
     font-weight: 500;
   }
+
   .img-logo-container {
     display: none;
   }
+
   .oct-mobile {
     display: block;
     height: 60px;
@@ -212,6 +197,7 @@ li a {
     padding-bottom: 8px;
     margin-left: auto;
   }
+
   .container-nav {
     position: relative;
     padding: 14px;
@@ -219,51 +205,54 @@ li a {
     background-color: #aa6e47;
     height: 75px;
   }
+
   .main-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-right: 30px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
     height: 75px;
   }
+
   .main-nav li {
     margin: 0;
   }
+
   .nav-links {
     margin-left: 40px;
   }
+
   .logo {
     margin-top: 0;
   }
+
   .navbar-toggle {
     display: none;
   }
+
   .logo:hover,
-  .nav-links:hover {
+.nav-links:hover {
     color: white;
   }
-
-
+  /*Section second*/
+  #title-secundary {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .texto-div {
+    text-align: center;
+    margin-left: 5%;
+  }
+  #title-three {
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
 }
-
 .flex {
   /*Flexbox for containers*/
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -320,37 +309,46 @@ li a {
 
 @-webkit-keyframes move-forever {
   0% {
-    -webkit-transform: translate3d(-90px, 0, 0);
-            transform: translate3d(-90px, 0, 0);
+    transform: translate3d(-90px, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d(85px, 0, 0);
-            transform: translate3d(85px, 0, 0);
+    transform: translate3d(85px, 0, 0);
   }
 }
 
 @keyframes move-forever {
   0% {
-    -webkit-transform: translate3d(-90px, 0, 0);
-            transform: translate3d(-90px, 0, 0);
+    transform: translate3d(-90px, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d(85px, 0, 0);
-            transform: translate3d(85px, 0, 0);
+    transform: translate3d(85px, 0, 0);
   }
 }
-
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
     height: 40px;
     min-height: 40px;
   }
+
   .content {
     height: 30vh;
   }
+
   h1 {
     font-size: 24px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+/*Section second*/
+  #title-secundary {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .texto-div {
+    text-align: center;
+    margin-left: 5%;
+  }
+  #title-three {
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+}/*# sourceMappingURL=style.css.map */
