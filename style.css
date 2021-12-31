@@ -264,6 +264,7 @@ li a {
     margin-top: 5%;
     margin-bottom: 3%;
   }
+  
 }
 .flex {
   /*Flexbox for containers*/
@@ -366,6 +367,27 @@ li a {
   }
   #title-three {
     margin-top: 5%;
-    margin-bottom: 3%;
+    margin-bottom: 6%;
+  }
+
+  .textos {
+    position: absolute;
+  }
+
+  .imagen-icono {
+    position: relative;
+    top: -18%;
+    left: 98%;
+    width: 25%;
+  }
+
+  .p-second {
+    margin-top: -25%;
+    margin-bottom: 12%;
+  }
+  
+  .title-h5 {
+    margin-left: 8%;
+    
   }
 }/*# sourceMappingURL=style.css.map */
