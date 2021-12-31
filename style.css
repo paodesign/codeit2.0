@@ -293,6 +293,20 @@ li a {
   .nav-links:hover {
     color: white;
   }
+  /*Section second*/
+  #title-secundary {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .texto-div {
+    text-align: center;
+    margin-left: 5%;
+  }
+  #title-three {
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  
 }
 
 .flex {
@@ -394,5 +408,38 @@ li a {
   h1 {
     font-size: 24px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+/*Section second*/
+  #title-secundary {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .texto-div {
+    text-align: center;
+    margin-left: 5%;
+  }
+  #title-three {
+    margin-top: 5%;
+    margin-bottom: 6%;
+  }
+
+  .textos {
+    position: absolute;
+  }
+
+  .imagen-icono {
+    position: relative;
+    top: -18%;
+    left: 98%;
+    width: 25%;
+  }
+
+  .p-second {
+    margin-top: -25%;
+    margin-bottom: 12%;
+  }
+  
+  .title-h5 {
+    margin-left: 8%;
+    
+  }
+}/*# sourceMappingURL=style.css.map */
