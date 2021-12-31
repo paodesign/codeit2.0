@@ -117,6 +117,7 @@
 * {
   margin: 0;
   padding: 0;
+
 } 
 
 body {
@@ -124,14 +125,15 @@ body {
   margin: 0;
   padding: 0;
   height: auto;
-    width: 100%;
-    overflow-x: hidden;
+  width: 100%;
 }
 
 
 .navbar {
-background-color: transparent;
-height: 100px;
+  background-color: transparent;
+  height: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .menu-nav-full{
@@ -207,13 +209,13 @@ li a {
  
 
   .home-octopus{
-    max-width: 40%;
+    max-width: 60%;
     height: auto;
   }
 
-  figure {
+  .figure-home {
     position: relative;
-    top: 170px;
+    top: 200px;
     z-index: 100;
 }
 }
@@ -227,6 +229,18 @@ li a {
 
 @media screen and (max-width: 990px) {
 
+
+  #home {
+    background: url(./images/fondo_1.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 80px 0px 150px 0px;
+}
+  
+
   .menu-nav-full{
     display: none;
   }
@@ -234,15 +248,16 @@ li a {
     display: block;
   }
   
-
   .navbar {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 85px;
+    height: 100px;
     align-items: center;
+     padding: 0;
 
   }
+
   .navbar-collapse{
     background-color: white;
     padding: 15px;
@@ -268,15 +283,41 @@ li a {
     width: auto;
     margin-right: 75px;
     padding-bottom: 8px;
-    margin-left: auto;
   }
+
+
+.figure-home {
+  position: relative;
+  top: 50px;
+  z-index: 100;
+}
+
+#home{
+ 
+  .figure-home {
+    position: relative;
+    top: 100px;
+    z-index: 100;
+
+    .home-octopus{
+      max-width: 80%;
+      height: auto;
+    }
+}
+}
+
 
   .container-nav{
     position: relative;
     padding: 14px;
     border-radius: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
     background-color:   #aa6e47  ;
     height: 75px;
+  }
+  .navbar-collapse{
+    z-index: 10;
   }
 
   .main-nav {
