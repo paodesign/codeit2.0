@@ -293,7 +293,6 @@ li a {
   .nav-links:hover {
     color: white;
   }
-<<<<<<< HEAD
   /*Section second*/
   #title-secundary {
     text-align: center;
@@ -308,8 +307,6 @@ li a {
     margin-bottom: 3%;
   }
   
-=======
->>>>>>> c769b315b9f05222baf10e0c6402a7c850f41186
 }
 
 .flex {
@@ -411,7 +408,6 @@ li a {
   h1 {
     font-size: 24px;
   }
-<<<<<<< HEAD
 /*Section second*/
   #title-secundary {
     text-align: center;
@@ -447,7 +443,3 @@ li a {
     
   }
 }/*# sourceMappingURL=style.css.map */
-=======
-}
-/*# sourceMappingURL=style.css.map */
->>>>>>> c769b315b9f05222baf10e0c6402a7c850f41186
