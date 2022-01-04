@@ -393,12 +393,16 @@ li a {
     margin-bottom: 3%;
   }
 
-  .imagen-icono
+  .imagen-icono ,
   .imagen-icono-dos {
     top: -12%;
     left: 25%;
     width: 27%;
     margin: 12%;
+  }
+
+  .p-second {
+    margin-left: 8%;
   }
 }
 
