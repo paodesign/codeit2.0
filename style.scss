@@ -229,6 +229,11 @@ li a {
 
 @media screen and (max-width: 990px) {
 
+  body {
+    font-family: "Museo Slab 500";
+    margin: 0;
+    padding: 0;
+  }
 
   #home {
     background: url(./images/fondo_1.jpg);
@@ -317,9 +322,8 @@ li a {
     height: 75px;
   }
   .navbar-collapse{
-    z-index: 10;
+    z-index: 101;
   }
-
   .main-nav {
     display: flex;
     margin-right: 30px;
@@ -327,15 +331,12 @@ li a {
     justify-content: flex-end;
     height: 75px;
   }
-
   .main-nav li {
     margin: 0;
   }
-
   .nav-links {
     margin-left: 40px;
   }
-
   .logo {
     margin-top: 0;
   }
@@ -349,7 +350,6 @@ li a {
     color: rgba(255, 255, 255, 1);
   }
 }
-
 
 .flex { /*Flexbox for containers*/
   display: flex;
