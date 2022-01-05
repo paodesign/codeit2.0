@@ -229,6 +229,11 @@ li a {
 
 @media screen and (max-width: 990px) {
 
+  body {
+    font-family: "Museo Slab 500";
+    margin: 0;
+    padding: 0;
+  }
 
   #home {
     background: url(./images/fondo_1.jpg);
@@ -317,9 +322,8 @@ li a {
     height: 75px;
   }
   .navbar-collapse{
-    z-index: 10;
+    z-index: 101;
   }
-
   .main-nav {
     display: flex;
     margin-right: 30px;
@@ -327,15 +331,12 @@ li a {
     justify-content: flex-end;
     height: 75px;
   }
-
   .main-nav li {
     margin: 0;
   }
-
   .nav-links {
     margin-left: 40px;
   }
-
   .logo {
     margin-top: 0;
   }
@@ -349,7 +350,6 @@ li a {
     color: rgba(255, 255, 255, 1);
   }
 }
-
 
 .flex { /*Flexbox for containers*/
   display: flex;
@@ -416,3 +416,121 @@ li a {
     font-size:24px;
   }
 }
+
+
+// <!-- third section starts-->
+#inmerse-third-section{
+
+  background-color: #1d6580;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+p{
+  color: #cccccc;
+}
+h1{
+  color: #cccccc;
+}
+h3{
+  color: #cccccc;
+}
+.third-waves{
+  transform: rotate(180deg);
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  min-height: 130px;
+  max-height: 150px;
+}
+.custom-container-third-section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  padding: 0% 5% 0% 5%;
+}
+
+.col-third{
+  
+  display: flex;
+  align-items: center;
+  width: 33.3%;
+}
+
+.collumn-info{
+
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding: 5%;
+}
+
+ .col-third-items{
+   display: flex;
+   flex-direction: column;
+  width: 33.3%;
+ }
+
+
+ .octo-icon-info{
+   height:auto;
+   width: 90px;
+ }
+
+
+ .abyss-img{
+  transform: scale3d(1.2, 1.2, 1.2);
+}
+
+
+
+@media screen and (max-width: 990px) {
+
+  
+  .custom-container-third-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 0% 5% 0% 5%;
+  }
+
+  .col-third{
+  
+    display: flex;
+  
+    align-items: center;
+    width: 50%;
+  }
+
+  .abyss-col{
+display: none;  
+}
+  
+}
+
+@media (max-width: 768px) {
+
+  .custom-container-third-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0% 5% 0% 5%;
+  }
+
+  .col-third{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .abyss-col{
+    display: none;  
+    }
+}
+}
+ 
+
+// <!-- third section ends-->

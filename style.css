@@ -182,6 +182,11 @@ li a {
 }
 
 @media screen and (max-width: 990px) {
+  body {
+    font-family: "Museo Slab 500";
+    margin: 0;
+    padding: 0;
+  }
   #home {
     background: url(./images/fondo_1.jpg);
     background-color: #cccccc;
@@ -261,7 +266,7 @@ li a {
     height: 75px;
   }
   .navbar-collapse {
-    z-index: 10;
+    z-index: 101;
   }
   .main-nav {
     display: -webkit-box;
@@ -408,38 +413,144 @@ li a {
   h1 {
     font-size: 24px;
   }
-/*Section second*/
-  #title-secundary {
-    text-align: center;
-    margin-top: 5%;
-  }
-  .texto-div {
-    text-align: center;
-    margin-left: 5%;
-  }
-  #title-three {
-    margin-top: 5%;
-    margin-bottom: 6%;
-  }
+}
 
-  .textos {
-    position: absolute;
-  }
+#inmerse-third-section {
+  background-color: #1d6580;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
-  .imagen-icono {
-    position: relative;
-    top: -18%;
-    left: 98%;
-    width: 25%;
-  }
+#inmerse-third-section p {
+  color: #cccccc;
+}
 
-  .p-second {
-    margin-top: -25%;
-    margin-bottom: 12%;
+#inmerse-third-section h1 {
+  color: #cccccc;
+}
+
+#inmerse-third-section h3 {
+  color: #cccccc;
+}
+
+#inmerse-third-section .third-waves {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  min-height: 130px;
+  max-height: 150px;
+}
+
+#inmerse-third-section .custom-container-third-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: auto;
+  padding: 0% 5% 0% 5%;
+}
+
+#inmerse-third-section .col-third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33.3%;
+}
+
+#inmerse-third-section .collumn-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: left;
+  padding: 5%;
+}
+
+#inmerse-third-section .col-third-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33.3%;
+}
+
+#inmerse-third-section .octo-icon-info {
+  height: auto;
+  width: 90px;
+}
+
+#inmerse-third-section .abyss-img {
+  -webkit-transform: scale3d(1.2, 1.2, 1.2);
+          transform: scale3d(1.2, 1.2, 1.2);
+}
+
+@media screen and (max-width: 990px) {
+  #inmerse-third-section .custom-container-third-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 0% 5% 0% 5%;
   }
-  
-  .title-h5 {
-    margin-left: 8%;
-    
+  #inmerse-third-section .col-third {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
   }
-}/*# sourceMappingURL=style.css.map */
+  #inmerse-third-section .abyss-col {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #inmerse-third-section .custom-container-third-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0% 5% 0% 5%;
+  }
+  #inmerse-third-section .col-third {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  #inmerse-third-section .abyss-col {
+    display: none;
+  }
+}
