@@ -298,6 +298,20 @@ li a {
   .nav-links:hover {
     color: white;
   }
+  /*Section second*/
+  #title-secundary {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .texto-div {
+    text-align: center;
+    margin-left: 5%;
+  }
+  #title-three {
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  
 }
 
 .flex {
@@ -540,4 +554,3 @@ li a {
     display: none;
   }
 }
-/*# sourceMappingURL=style.css.map */
