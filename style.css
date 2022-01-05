@@ -298,20 +298,6 @@ li a {
   .nav-links:hover {
     color: white;
   }
-  /*Section second*/
-  #title-secundary {
-    text-align: center;
-    margin-top: 5%;
-  }
-  .texto-div {
-    text-align: center;
-    margin-left: 5%;
-  }
-  #title-three {
-    margin-top: 5%;
-    margin-bottom: 3%;
-  }
-  
 }
 
 .flex {
@@ -554,3 +540,74 @@ li a {
     display: none;
   }
 }
+
+#why-us-section {
+  background-color: #025680;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#why-us-section #container-shoal {
+  background: url(./images/shoal.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#why-us-section .fourth-section-items-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0% 5% 5% 5%;
+}
+
+#why-us-section p {
+  color: #cccccc;
+}
+
+#why-us-section h1 {
+  font-size: 60px;
+  color: #cccccc;
+}
+
+#why-us-section h2 {
+  color: #cccccc;
+}
+
+#why-us-section h3 {
+  color: #cccccc;
+}
+
+#why-us-section h4 {
+  color: #cccccc;
+}
+
+#why-us-section .title-item-background {
+  background-color: #80361D;
+  border-radius: 0px 0px 25px 25px;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#why-us-section .title-item-background h2 {
+  font-size: 35px;
+}
+/*# sourceMappingURL=style.css.map */
