@@ -1,115 +1,79 @@
 @font-face {
   font-family: "Museo Slab";
-  src: local("Museo Slab 100"), local("Museo-Slab-100"),
-    url("../fonts/MuseoSlab-100.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-100.woff") format("woff"),
-    url("../fonts/MuseoSlab-100.ttf") format("truetype");
+  src: local("Museo Slab 100"), local("Museo-Slab-100"), url("../fonts/MuseoSlab-100.woff2") format("woff2"), url("../fonts/MuseoSlab-100.woff") format("woff"), url("../fonts/MuseoSlab-100.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Museo Slab Italic 100";
-  src: local("Museo Slab Italic 100"), local("Museo-Slab-Italic-100"),
-    url("../fonts/MuseoSlab-100Italic.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-100Italic.woff") format("woff"),
-    url("../fonts/MuseoSlab-100Italic.ttf") format("truetype");
+  src: local("Museo Slab Italic 100"), local("Museo-Slab-Italic-100"), url("../fonts/MuseoSlab-100Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-100Italic.woff") format("woff"), url("../fonts/MuseoSlab-100Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Museo Slab 300";
-  src: local("Museo Slab 300"), local("Museo-Slab-300"),
-    url("../fonts/MuseoSlab-300.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-300.woff") format("woff"),
-    url("../fonts/MuseoSlab-300.ttf") format("truetype");
+  src: local("Museo Slab 300"), local("Museo-Slab-300"), url("../fonts/MuseoSlab-300.woff2") format("woff2"), url("../fonts/MuseoSlab-300.woff") format("woff"), url("../fonts/MuseoSlab-300.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Museo Slab Italic 300";
-  src: local("Museo Slab Italic 300"), local("Museo-Slab-Italic-300"),
-    url("../fonts/MuseoSlab-300Italic.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-300Italic.woff") format("woff"),
-    url("../fonts/MuseoSlab-300Italic.ttf") format("truetype");
+  src: local("Museo Slab Italic 300"), local("Museo-Slab-Italic-300"), url("../fonts/MuseoSlab-300Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-300Italic.woff") format("woff"), url("../fonts/MuseoSlab-300Italic.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Museo Slab 500";
-  src: local("Museo Slab 500"), local("Museo-Slab-500"),
-    url("../fonts/MuseoSlab-500.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-500.woff") format("woff"),
-    url("../fonts/MuseoSlab-500.ttf") format("truetype");
+  src: local("Museo Slab 500"), local("Museo-Slab-500"), url("../fonts/MuseoSlab-500.woff2") format("woff2"), url("../fonts/MuseoSlab-500.woff") format("woff"), url("../fonts/MuseoSlab-500.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Museo Slab Italic 500";
-  src: local("Museo Slab Italic 500"), local("Museo-Slab-Italic-500"),
-    url("../fonts/MuseoSlab-500Italic.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-500Italic.woff") format("woff"),
-    url("../fonts/MuseoSlab-500Italic.ttf") format("truetype");
+  src: local("Museo Slab Italic 500"), local("Museo-Slab-Italic-500"), url("../fonts/MuseoSlab-500Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-500Italic.woff") format("woff"), url("../fonts/MuseoSlab-500Italic.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Museo Slab 700";
-  src: local("Museo Slab 700"), local("Museo-Slab-700"),
-    url("../fonts/MuseoSlab-700.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-700.woff") format("woff"),
-    url("../fonts/MuseoSlab-700.ttf") format("truetype");
+  src: local("Museo Slab 700"), local("Museo-Slab-700"), url("../fonts/MuseoSlab-700.woff2") format("woff2"), url("../fonts/MuseoSlab-700.woff") format("woff"), url("../fonts/MuseoSlab-700.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Museo Slab Italic 700";
-  src: local("Museo Slab Italic 700"), local("Museo-Slab-Italic-700"),
-    url("../fonts/MuseoSlab-700Italic.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-700Italic.woff") format("woff"),
-    url("../fonts/MuseoSlab-700Italic.ttf") format("truetype");
+  src: local("Museo Slab Italic 700"), local("Museo-Slab-Italic-700"), url("../fonts/MuseoSlab-700Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-700Italic.woff") format("woff"), url("../fonts/MuseoSlab-700Italic.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Museo Slab 900";
-  src: local("Museo Slab 900"), local("Museo-Slab-900"),
-    url("../fonts/MuseoSlab-900.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-900.woff") format("woff"),
-    url("../fonts/MuseoSlab-900.ttf") format("truetype");
+  src: local("Museo Slab 900"), local("Museo-Slab-900"), url("../fonts/MuseoSlab-900.woff2") format("woff2"), url("../fonts/MuseoSlab-900.woff") format("woff"), url("../fonts/MuseoSlab-900.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Museo Slab Italic 900";
-  src: local("Museo Slab Italic 900"), local("Museo-Slab-Italic-900"),
-    url("../fonts/MuseoSlab-900Italic.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-900Italic.woff") format("woff"),
-    url("../fonts/MuseoSlab-900Italic.ttf") format("truetype");
+  src: local("Museo Slab Italic 900"), local("Museo-Slab-Italic-900"), url("../fonts/MuseoSlab-900Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-900Italic.woff") format("woff"), url("../fonts/MuseoSlab-900Italic.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Museo Slab 1000";
-  src: local("Museo Slab 1000"), local("Museo-Slab-1000"),
-    url("../fonts/MuseoSlab-1000.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-1000.woff") format("woff"),
-    url("../fonts/MuseoSlab-1000.ttf") format("truetype");
+  src: local("Museo Slab 1000"), local("Museo-Slab-1000"), url("../fonts/MuseoSlab-1000.woff2") format("woff2"), url("../fonts/MuseoSlab-1000.woff") format("woff"), url("../fonts/MuseoSlab-1000.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Museo Slab Italic 1000";
-  src: local("Museo Slab Italic 1000"), local("Museo-Slab-Italic-1000"),
-    url("../fonts/MuseoSlab-1000Italic.woff2") format("woff2"),
-    url("../fonts/MuseoSlab-1000Italic.woff") format("woff"),
-    url("../fonts/MuseoSlab-1000Italic.ttf") format("truetype");
+  src: local("Museo Slab Italic 1000"), local("Museo-Slab-Italic-1000"), url("../fonts/MuseoSlab-1000Italic.woff2") format("woff2"), url("../fonts/MuseoSlab-1000Italic.woff") format("woff"), url("../fonts/MuseoSlab-1000Italic.ttf") format("truetype");
   font-weight: normal;
 }
 
@@ -218,9 +182,47 @@ li a {
 }
 
 /* About */
+.title-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 
+.text-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.comp-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* 
+.text-1 {
+  display: flex;
+  flex-direction: column;
+} */
+/* .comp-1 , .comp-2 {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2em;
+} */
 #title-secundary {
-  text-align: center;
   margin-top: 5%;
 }
 
@@ -234,24 +236,19 @@ li a {
   text-align: center;
 }
 
-.imagen-icono {
+/* .imagen-icono {
   position: relative;
   top: -20%;
   left: -24%;
   width: 27%;
-}
-
+} */
+/* 
 .imagen-icono-dos {
   position: relative;
   top: -20%;
   left: -24%;
   width: 27%;
-}
-
-.textos {
-  margin-left: 20%;
-}
-
+} */
 .texto-img {
   margin-left: -9%;
   margin-right: 17%;
@@ -378,12 +375,12 @@ li a {
   .nav-links:hover {
     color: white;
   }
-
   /* About */
+  /*   
   #title-secundary {
     text-align: center;
     margin-top: 5%;
-  }
+  } */
   .texto-div {
     text-align: center;
     margin-left: 5%;
@@ -392,17 +389,18 @@ li a {
     margin-top: 5%;
     margin-bottom: 3%;
   }
-
-  .imagen-icono ,
+  /* .imagen-icono ,
   .imagen-icono-dos {
     top: -12%;
     left: 25%;
     width: 27%;
     margin: 12%;
-  }
-
+  } */
   .p-second {
     margin-left: 8%;
+  }
+  div > .container {
+    max-width: 960px;
   }
 }
 
@@ -439,8 +437,7 @@ li a {
 
 /* Animation */
 .parallax > use {
-  -webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5)
-    infinite;
+  -webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
 
@@ -507,10 +504,10 @@ li a {
     font-size: 24px;
   }
   /* About */
-  #title-secundary {
+  /* #title-secundary {
     text-align: center;
     margin-top: 5%;
-  }
+  } */
   .texto-div {
     text-align: center;
     margin-left: 5%;
@@ -519,24 +516,21 @@ li a {
     margin-top: 5%;
     margin-bottom: 6%;
   }
-
   .textos {
     position: absolute;
   }
-
-  .imagen-icono {
+  /* .imagen-icono {
     position: relative;
     top: -18%;
     left: 98%;
     width: 25%;
-  }
-
+  } */
   .p-second {
     margin-top: -25%;
     margin-bottom: 12%;
   }
-
   .title-h5 {
     margin-left: 8%;
   }
-} /*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
