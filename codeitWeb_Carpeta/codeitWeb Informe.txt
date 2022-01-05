@@ -1,0 +1,277 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: codeitWeb.ai
+Modo de color: Color RGB
+Perfil de color: Adobe RGB (1998)
+Unidades de regla: píxeles
+Dimensiones de la mesa de trabajo: 2232,77 px x 1079,9991 px
+Mostrar imágenes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edición de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+Museo Slab 900 Italic (OTF)
+Museo Slab 700 (OTF)
+Museo Slab 300 (OTF)
+Museo Slab 500 Italic (OTF)
+Museo Slab 100 (OTF)
+Museo Slab 1000 (OTF)
+Museo Slab 500 (OTF)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Imágenes enlazadas:
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\Cody sea\1Recurso 111SCREEN1.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 1007K, 482 por 535 píxeles
+Dimensiones: 154,623 por 171,625 puntos 
+Resolución: 224,442 por 224,442 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\Cody sea\1Recurso 112SCREEN1.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 960K, 482 por 510 píxeles
+Dimensiones: 154,271 por 163,233 puntos 
+Resolución: 224,954 por 224,954 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\Cody sea\1Recurso 110SCREEN1.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 19442K, 2233 por 2229 píxeles
+Dimensiones: 157,33 por 157,048 puntos 
+Resolución: 1021,903 por 1021,903 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\Cody sea\1Recurso 107SCREEN1.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 2087K, 736 por 726 píxeles
+Dimensiones: 187,653 por 185,103 puntos 
+Resolución: 282,394 por 282,394 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\tecnologies\.net.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 1868K, 978 por 489 píxeles
+Dimensiones: 345,883 por 172,941 puntos 
+Resolución: 203,583 por 203,583 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\tecnologies\PHP-logo.svg.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 13830K, 2560 por 1383 píxeles
+Dimensiones: 285,961 por 154,486 puntos 
+Resolución: 644,563 por 644,563 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\tecnologies\java-logo-1.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 6400K, 1280 por 1280 píxeles
+Dimensiones: 321,893 por 321,893 puntos 
+Resolución: 286,307 por 286,307 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\tecnologies\vertical-logo-monochromatic.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 5788K, 1316 por 1126 píxeles
+Dimensiones: 218,498 por 186,952 puntos 
+Resolución: 433,652 por 433,652 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\tecnologies\React-logo-1.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 609K, 578 por 270 píxeles
+Dimensiones: 330,714 por 154,486 puntos 
+Resolución: 125,837 por 125,837 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\tecnologies\angular-logo-png.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 956K, 720 por 340 píxeles
+Dimensiones: 504,054 por 238,026 puntos 
+Resolución: 102,846 por 102,846 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\tecnologies\800px-ISO_C++_Logo.svg.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 2809K, 800 por 899 píxeles
+Dimensiones: 137,474 por 154,486 puntos 
+Resolución: 418,989 por 418,989 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\tecnologies\Kubernetes_Logo.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 49648K, 5000 por 2542 píxeles
+Dimensiones: 303,866 por 154,486 puntos 
+Resolución: 1184,732 por 1184,732 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\tecnologies\Microsoft_Azure_Logo.svg.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 1626K, 1200 por 347 píxeles
+Dimensiones: 423,522 por 122,469 puntos 
+Resolución: 204,003 por 204,003 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\tecnologies\javascript-39396.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 825K, 600 por 352 píxeles
+Dimensiones: 263,328 por 154,486 puntos 
+Resolución: 164,054 por 164,054 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\Internet\david-rangel-4m7gmLNr3M0-unsplash.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 52488K, 5184 por 3456 píxeles
+Dimensiones: 894,73 por 596,487 puntos 
+Resolución: 417,163 por 417,163 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\Internet\joshua-aragon-EaB4Ml7C7fE-unsplash.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 53076K, 5991 por 3024 píxeles
+Dimensiones: 1180,983 por 596,11 puntos 
+Resolución: 365,248 por 365,248 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\Internet\arnold-francisca-f77Bh3inUpE-unsplash.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 52488K, 5184 por 3456 píxeles
+Dimensiones: 896,055 por 597,37 puntos 
+Resolución: 416,546 por 416,546 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\Internet\danial-igdery-FCHlYvR5gJI-unsplash.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 70312K, 6000 por 4000 píxeles
+Dimensiones: 894,975 por 596,65 puntos 
+Resolución: 482,695 por 482,695 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\Carpeta de Pao\img\1Recurso 117SCREEN1.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7241K, 2235 por 1106 píxeles
+Dimensiones: 349,673 por 173,037 puntos 
+Resolución: 460,201 por 460,201 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\Cody sea\depositphotos_320840624-stock-illustration-paper-cut-butterflyfish-jellyfish-moonfish.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 5006K, 1600 por 1068 píxeles
+Dimensiones: 819,584 por 547,085 puntos 
+Resolución: 140,559 por 140,556 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\Internet\Monotono\altumcode-celesteazul.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 58593K, 5000 por 4000 píxeles
+Dimensiones: 308,226 por 246,581 puntos 
+Resolución: 1167,973 por 1167,973 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\Internet\Monotono\altumcode-celesteazul.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 58593K, 5000 por 4000 píxeles
+Dimensiones: 308,226 por 246,581 puntos 
+Resolución: 1167,973 por 1167,973 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\Cody sea\1Recurso 113SCREEN1.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 38890K, 3990 por 3327 píxeles
+Dimensiones: 4218,72 por 3517,714 puntos 
+Resolución: 68,096 por 68,096 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\Cody sea\1Recurso 113SCREEN1.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 38890K, 3990 por 3327 píxeles
+Dimensiones: 3774,161 por 3147,026 puntos 
+Resolución: 76,118 por 76,118 píxeles por pulgada
+
+
+C:\Users\adria\Documents\Trabajos\BUSTOSINESE\SIGNO MARCARIO\Proyecto Leo Fer\web\Cody sea\1Recurso 113SCREEN1.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 38890K, 3990 por 3327 píxeles
+Dimensiones: 3774,161 por 3147,026 puntos 
+Resolución: 76,118 por 76,118 píxeles por pulgada
+
+
+F:\DISEÑO\Vectores\Abstract_Clouds\Abstract_Clouds\shutterstock_188766308.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 6600K, 1501 por 1501 píxeles
+Dimensiones: 1453,954 por 1453,954 puntos 
+Resolución: 74,33 por 74,33 píxeles por pulgada
