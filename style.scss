@@ -534,3 +534,65 @@ display: none;
  
 
 // <!-- third section ends-->
+
+// fourth-section starts
+
+#why-us-section{
+
+  background-color: #025680;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+
+
+  #container-shoal  {
+    background: url(./images/shoal.svg) no-repeat;
+    background-size: cover;
+    position: relative;
+   } 
+  
+  .fourth-section-items-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0% 5% 5% 5%;    
+  }
+
+  p{
+    color: #cccccc;
+  }
+  h1{
+    font-size: 60px;
+    color: #cccccc;
+  }
+  h2{
+    color: #cccccc;
+  }
+  h3{
+    color: #cccccc;
+  }
+  h4{
+    color: #cccccc;
+  }
+
+  .title-item-background{
+    background-color: #80361D;
+    border-radius: 0px 0px 25px 25px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+    }
+
+  .title-item-background h2 {
+    font-size: 35px;
+  }
+
+}
+
+// fourth section ends
