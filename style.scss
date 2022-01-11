@@ -586,6 +586,7 @@ display: none;
     justify-content: center;
     margin-top: 10%;
     margin-bottom: 10%;
+    padding: 10% 0% 10% 0%;
    
     }
 
@@ -596,3 +597,48 @@ display: none;
 }
 
 // fourth section ends
+
+// contact section starts]
+#contact-section{
+background-color: #002432;
+height:100vh;
+padding-top: 100px;
+  .contact-section-row {
+    background-color: red;
+    background: url(./images/footer-bkg.svg) no-repeat;
+    background-size: cover;
+    position: relative;
+    height:100vh;
+   
+
+
+   } 
+
+   label{
+    color: #cccccc;
+    margin-bottom: 20px;
+  }
+   p{
+    color: #cccccc;
+  }
+  h1{
+    font-size: 60px;
+    color: #cccccc;
+  }
+  h2{
+    color: #cccccc;
+  }
+  h3{
+    color: #cccccc;
+  }
+  h4{
+    color: #cccccc;
+  }
+
+  .plants-container{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+   }
+
+}
