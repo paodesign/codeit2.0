@@ -4,23 +4,18 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
 
   <link href="  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
   <title>Hello, world!</title>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/normalize.css">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Hello, world!</title>
+  <link rel="stylesheet" href="./assets/normalize.css">
 </head>
 
 <body>
@@ -35,7 +30,7 @@
   <nav class="navbar">
     <div class="container-fluid container-nav">
       <div class="img-logo-container">
-        <img src="assets/images/logo.png" alt="" class="d-inline-block align-text-top logo-img">
+        <img src="./assets/images/logo.png" alt="" class="d-inline-block align-text-top logo-img">
       </div>
       <div class="menu-nav-full">
         <ul class="text-end me-auto d-flex main-menu-nav">
@@ -59,7 +54,7 @@
           </li>
         </ul>
       </div>
-      <img src="assets/images/pulpoIcon.png" class="oct-mobile" alt="">
+      <img src="./assets/images/pulpoIcon.png" class="oct-mobile" alt="">
       <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#Ffff" class="bi bi-list"
@@ -136,84 +131,98 @@
   </section>
 
   <!--Second section start-->
-  <section id="second-section">
+  <section id="about">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+          <h2 id="title-secundary"> <strong>Know our ocean</strong></h2>
+        </div>
+      </div>
+
+
+      <div class="col-lg-12 col-md-12 col-xs-12">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+          been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+          galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+
+
+    </div>
+
     <div class="row">
       <div class="container">
+        <div class="row d-flex">
 
-        <div class="row">
-          <div class="col-12 ">
-            <h2 id="title-secundary"> <strong>Know our ocean</strong></h2>
-          </div>
-        </div>
-
-        <div class="row section-1 row-texto-div">
-          <div class="col-5 texto-div container">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-              been
-              the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-              galley
-              of type and scrambled it to make a type specimen book.</p>
-          </div>
-          <div class="col-2 texto-div">
-
-          </div>
-          <div class="col-5 texto-div container">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-              been
-              the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-              galley
-              of type and scrambled it to make a type specimen book.</p>
-          </div>
-
-        </div>
-        <div class="row section-1 row-texto-div">
-          <div class="col-10 texto-div">
-            <h3 id="title-three"> <strong>Benefits of outsourcing us</strong></h3>
-          </div>
-        </div>
-        <div class="container textos">
-          <div class="row section-1 row-texto-img">
-            <div class="col-9 texto-img">
-              <h5 class="title-h5"><strong>Time to focus on core business operations</strong></h5>
-              <figure class="imagen-icono sombra_fija">
-                <img src="assets/images/time.png" alt="timepulpos" class="img-fluid">
-              </figure>
-              <p class="p-second ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, inventore tenetur
-                sed nesciunt enim earum perspiciatis iste ratione sapiente non neque quidem numquam!
-                Asperiores vel ducimus at quibusdam amet harum?</p>
-
-            </div>
-            <div class="col-9 texto-img" id="image-saludo">
-              <h5 class="title-h5"><strong>Risk sharing with an external organization</strong></h5>
-              <figure class="imagen-icono sombra_fija">
-                <img src="assets/images/saludo.png" alt="saludopulpos" class="img-fluid">
-              </figure>
-              <p class="p-second">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, inventore tenetur sed
-                nesciunt enim earum perspiciatis iste ratione sapiente non neque quidem numquam!
-                Asperiores vel ducimus at quibusdam amet harum?</p>
+          <div class="col-lg-6 col-md-8 col-xs-10">
+            <div class="col-12 d-flex">
+              <div class="col-3">
+                <figure class="imagen-icono sombra_fija">
+                  <img src="assets/images/saludo.png" alt="timepulpos" class="img-fluid">
+                </figure>
+              </div>
+              <div class="col-9">
+                <div>
+                  <h3>Risk sharing with an external organization</h3>
+                </div>
+                <div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nobis.</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="row section-1 row-texto-img-dos">
-            <div class="col-5 texto-img-dos">
-              <h5 class="title-h5"><strong>Cost curtailment for software development</strong></h5>
-              <figure class="imagen-icono-dos sombra_fija">
-                <img src="assets/images/money.png" alt="moneypulpos" class="img-fluid">
-              </figure>
-              <p class="p-second ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, inventore tenetur
-                sed
-                nesciunt enim earum perspiciatis iste ratione sapiente non neque quidem numquam!
-                Asperiores vel ducimus at quibusdam amet harum?</p>
-            </div>
-            <div class="col-5 texto-img-dos">
-              <h5 class="title-h5"><strong>Incorporate latest technology to project</strong></h5>
 
-              <figure class="imagen-icono-dos sombra_fija">
-                <img src="assets/images/chip.png" alt="chippulpos" class="img-fluid">
-              </figure>
-              <p class="p-second ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, inventore tenetur
-                sed
-                nesciunt enim earum perspiciatis iste ratione sapiente non neque quidem numquam!
-                Asperiores vel ducimus at quibusdam amet harum?</p>
+          <div class="col-lg-6 col-md-8 col-xs-10 ">
+            <div class="col-12 d-flex">
+              <div class="col-3">
+                <figure class="imagen-icono sombra_fija text-center">
+                  <img src="assets/images/money.png" alt="timepulpos" class="img-fluid">
+                </figure>
+              </div>
+              <div class="col-9">
+                <div>
+                  <h3>Time to focus on core business operations</h3>
+                </div>
+                <div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nobis.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-8 col-xs-10">
+            <div class="col-12 d-flex">
+              <div class="col-3 ">
+                <figure class="imagen-icono sombra_fija ">
+                  <img src="assets/images/chip.png" alt="timepulpos" class="img-fluid">
+                </figure>
+              </div>
+              <div class="col-9">
+                <div>
+                  <h3>Cost curtailment forsoftware development</h3>
+                </div>
+                <div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nobis.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-8 col-xs-10">
+            <div class="col-12 d-flex">
+              <div class="col-3">
+                <figure class="imagen-icono sombra_fija">
+                  <img src="assets/images/time.png" alt="timepulpos" class="img-fluid">
+                </figure>
+              </div>
+              <div class="col-9">
+                <div>
+                  <h3>Time to focus on core business operations</h3>
+                </div>
+                <div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nobis.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -222,6 +231,325 @@
   </section>
   <!--Second section end-->
 
+  <!-- third section starts-->
+  <section id="inmerse-third-section">
+
+    <!-- <svg class="third-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgb(7,158,187)" />
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="#214c77" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="#1a3d5f" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="#276db3" />
+      </g>
+    </svg> -->
+
+    <div class="custom-container-third-section col-12">
+      <div class="col-third col-3">
+        <div class="collumn-info">
+          <div class="title-third">
+            <h1>Inmmerse in our strengths</h1>
+          </div>
+          <div class="text-third">
+            <p>
+              Somos una empresa de tecnologias de la informa-cion, ubicados en Montevideo, Uruguay; partici-pamos
+              durante (xtiempo) en mas de (xproyectos), bajo el respaldo tecnologico y confianza de VISION BOX
+              Biometrics
+              Systems. Brindamos asesoramiento y consultoria tecnologi-ca para clientes que necesiten mejorar o
+              gestionar sus procesos de maneras mas efcientes; ya sea mediante el desarrollo de software,
+              procedimien-tos o equipos de trabajo.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-third abyss-col col-3 d-xs-none">
+        <img src="assets/images/devicesabismo.svg" class="abyss-img img-fluid text-center" alt="">
+      </div>
+      <div class="col-third col-3">
+        <div>
+          <div class="col-third-item">
+            <div class="img third text-center">
+              <img src="assets/images/octo-code.svg" class="octo-icon-info text-center align-middle" alt="">
+
+            </div>
+            <div class="text-third text-center">
+              <h3>Software consulting</h3>
+            </div>
+            <div class="text-third text-center">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aut atque quis, quod unde voluptatem magni
+                nostrum eligendi veritatis a.</p>
+            </div>
+          </div>
+          <div class="col-third-item">
+            <div class="img third text-center">
+              <img src="assets/images/octo-team.svg" class="octo-icon-info text-center" alt="">
+            </div>
+            <div class="sub-title-third text-center">
+              <h3>Development team</h3>
+            </div>
+            <div class="text-third text-center">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aut atque quis, quod unde voluptatem magni
+                nostrum eligendi veritatis a.</p>
+            </div>
+          </div>
+          <div class="col-third-item">
+            <div class="img third text-center"> <img src="assets/images/octo-out.svg" class="octo-icon-info text-center"
+                alt=""></div>
+            <div class="sub-title-third text-center">
+              <h3>Outsourcing development</h3>
+            </div>
+            <div class="text-third text-center">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aut atque quis, quod unde voluptatem magni
+                nostrum eligendi veritatis a.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- third section ends-->
+
+  <!-- fourth section starts -->
+  <section id="why-us-section">
+    <div class="row" id="row-fourth-section-background">
+      <div class="container" id="container-shoal">
+        <div class="container fourth-section-title">
+          <h1 class="text-center">Why us?</h1>
+        </div>
+        <div class="container fourth-sectiion-description">
+          <p class="text-center">We are professionals committed to provide services and responses of high added value.
+            We strive to integrate innovative technological solutions, with a tangible synergy with our customers and
+            this achieve operational excellence and user satisfaction.</p>
+        </div>
+        <div class=" fourth-section-items-container">
+          <div class="row fourth-section-items-row">
+
+            <div class="col-lg-4 col-xs-12">
+              <div class="title-item-background ">
+                <h2 class="text-center ">Trust</h2>
+              </div>
+              <div class="fourth-section-item-description">
+                <h4 class="text-center">Standarized and time-proven contracts</h4>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+              <div class="title-item-background ">
+                <h2 class="text-center align-middle">High Goals</h2>
+              </div>
+              <div class="fourth-section-item-description">
+                <h4 class="text-center">Long term goals of your project</h4>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+              <div class="title-item-background ">
+                <h2 class="text-center align-middle">Quality</h2>
+              </div>
+              <div class="fourth-section-item-description">
+                <h4 class="text-center">Get perfect candidates only</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- fifth section starts-->
+  <section id="fifth-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="text-center title-h4">Our tecnologies</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex">
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/java-logo-1.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/net.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/docker.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/React-logo-1.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/PHP-logo.svg.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/PHP-logo.svg.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex">
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/java-logo-1.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/net.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/docker.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/React-logo-1.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/PHP-logo.svg.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="imagen-logo">
+              <img src="assets/images/PHP-logo.svg.png" alt="timepulpos" class="img-fluid">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--fifth section end-->
+
+  <!--sixth section starts-->
+  <section id="sixth-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="text-center title-h4">Our weekly blog</h4>
+        </div>
+        <div class="col-10">
+          <p id="p-sixth" class="text-center">Este es nuestro espacio donde queremos compartirte rastros de nuestro
+            viaje de superacion; compartir lo que
+            estamos aprendiendo, lo que hemos aprendido y lo que expertos nos estan enseñando para que tu puedas
+            construirte desde adentro hacia afuera como emprendedor y profesional. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-5">
+          <figure>
+            <img src="assets/images/pulpoRecurso-129saludando.svg" alt="" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-7">
+          <div class="row d-flex ">
+            <div class="col-3">
+              <figure>
+                <img src="assets/images/altumcode-celesteazul.jpg" class="img-blue" alt="" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-9">
+              <h5>How manage deadlines</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla doloremque reiciendis aliquid
+                eaque.</p>
+            </div>
+          </div>
+
+          <div class="row d-flex ">
+            <div class="col-3">
+              <figure>
+                <img src="assets/images/altumcode-celesteazul.jpg" class="img-blue" alt="" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-9">
+              <h5>How manage deadlines</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla doloremque reiciendis aliquid
+                eaque. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--sixth section end-->
+
+  <!-- fourth section ends -->
+  <!-- contACT SECtion starts -->
+  <section id="contact-section">
+    <div class="row contact-section-row">
+      <div class="container">
+        <div class="container-title">
+          <h1 class="title-contact-section text-center">Contact Us</h1>
+        </div>
+        <div class="container-title container">
+          <p class="title-contact-section text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+            quae tempore aspernatur excepturi, suscipit, perferendis obcaecati doloribus tempora necessitatibus quos
+            labore dolorum aut delectus? Veritatis fuga quae nihil sunt fugiat. Nihil dolores tenetur mollitia at
+            ratione deleniti officiis? Adipisci, mollitia?</p>
+        </div>
+        <div class="container-form"></div>
+        <div class="container align-center">
+          <div class="col-6">
+            <form method="POST" action="#" class="needs-validation" novalidate>
+              <div class="form-group">
+                <label for="fname">Full name: *</label>
+                <input type="text" class="form-control" id="fname" name="fname" placeholder="Your full name..."
+                  required>
+                <div class="invalid-feedback">Please provide a valid name.</div>
+              </div>
+              <div class="form-group">
+                <label class="mt-3" for="email">E-mail: *</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your e-mail..." required>
+                <div class="invalid-feedback">Please provide a valid e-mail.</div>
+              </div>
+              <div class="form-group">
+                <label class="mt-3" for="phone">Phone: *</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number..." required>
+                <div class="invalid-feedback">Please provide a valid phone number.</div>
+              </div>
+              <div class="form-group">
+                <label class="mt-3" for="comment">Your comment</label>
+                <textarea class="form-control" id="comment" name="comment" rows="3"
+                  placeholder="Your comment here"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary bt">Submit form</button>
+            </form>
+          </div>
+          <div class="row  plants-containe">
+            <img src="assets/images/coral-leftie.svg" height="150" width="auto" alt="">
+            <img src="assets/images/coral-leftie.svg" height="150" width="auto" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contACT SECtion ends -->
+  <script src="./js/contact-form.js"></script>
 </body>
 
 </html>
