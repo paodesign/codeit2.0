@@ -605,9 +605,61 @@ li a {
           justify-content: center;
   margin-top: 10%;
   margin-bottom: 10%;
+  padding: 10% 0% 10% 0%;
 }
 
 #why-us-section .title-item-background h2 {
   font-size: 35px;
+}
+
+#contact-section {
+  background-color: #002432;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+#contact-section .contact-section-row {
+  background-color: red;
+  background: url(./images/footer-bkg.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+#contact-section label {
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+#contact-section p {
+  color: #cccccc;
+}
+
+#contact-section h1 {
+  font-size: 60px;
+  color: #cccccc;
+}
+
+#contact-section h2 {
+  color: #cccccc;
+}
+
+#contact-section h3 {
+  color: #cccccc;
+}
+
+#contact-section h4 {
+  color: #cccccc;
+}
+
+#contact-section .plants-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 /*# sourceMappingURL=style.css.map */
