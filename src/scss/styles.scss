@@ -236,6 +236,10 @@ h3 {
   padding: 10px;
   margin: 10px;
 }
+
+#title-secundary {
+  font-size: xxx-large;
+}
 //About end //
 
 // section fifth//
@@ -262,13 +266,19 @@ h3 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-#p-sixth {
+#p-sixth ,
+.title-h5 {
   color: ffffff;
 }
 
 .img-blue {
-  width: 100px;
-  height: 90px;
+  width: 160px;
+  height: 130px;
+}
+
+.title-h5 {
+  font-size:x-large;
+  color: #cccccc;
 }
 
 
